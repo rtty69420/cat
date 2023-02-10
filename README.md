@@ -1,2 +1,0 @@
-# ozrageharm.github.io
-qwerty
