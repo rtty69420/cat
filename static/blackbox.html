@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Error Code: 404</title>
+    <meta name="description" content="Blackbox AI" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
+    <meta name="googlebot" content="index, follow, snippet" />
+    <link href="blackbox.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+    <div title="Blackbox AI" class="desc">
+        <h4>Blackbox AI </h4>
+    </div>
+    <form name="formm">
+        <input id="ai" placeholder="Talk to Blackbox AI">
+    </form>
+
+    <h1 class="output"></h1>
+
+    <footer>
+        <span title="ween">Shadow Unblocker &copy; 2024 | Schools can't do shit to this lmfao </span>
+        <button onclick="window.location.href='https://darkloyd256.github.io/Ooh-nice-computer-you-got-here-Can-i-have-it/'">Games</button>
+        <button onclick="window.location.href='index.html'">Search</button>
+    </footer>
+    <script src="/uv/uv.bundle.js"></script>
+    <script src="/uv/uv.config.js"></script>
+    <script>
+        const ai = require("@ozrageharm/blackbox-ai");
+        var input = document.getElementById("ai");
+        const output = ai.chat(input.value)
+        const result = document.querySelector(".output");
+    
+        result.textContent = input.value;
+
+    </script>
+</body>
+
+</html>
