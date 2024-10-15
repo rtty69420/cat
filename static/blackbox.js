@@ -8,5 +8,5 @@ form.addEventListener('submit', async event => {
     const output = ai.chat(input.value.trim());
     const result = document.querySelector(".output");
 
-    result.innerText = input.value.trim();
+    result.text = input.value.trim();
 });

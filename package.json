@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "@ozrageharm/blackbox-ai": "^1.1.1",
+    "axios": "^1.7.7",
     "bare-server-node": "github:tomphttp/bare-server-node",
+    "express": "^4.21.0",
     "node-static": "^0.7.11"
   },
   "name": "uv-app",
